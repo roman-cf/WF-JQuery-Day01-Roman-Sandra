@@ -32,10 +32,10 @@ $("body").css({"margin":"0","padding":"0","font-family":"Verdana"});
 $("h1").css({"background-color":"darkcyan","color":"white","text-align":"center","margin":"0","padding":"1.5em"});
 $("main").css({"background-color":"lightblue","display":"flex","flex-wrap":"wrap"});
 
-$(".product").css({"width":"350px", "background-color":"white","margin":"2em","border-radius":"2em","position":"relative" }); //
+$(".product").css({"width":"350px", "background-color":"white","margin":"2em","border-radius":"2em","display": "flex", "flex-wrap": "wrap", "justify-content": "center" }); 
 $(".names").css({"text-align":"center","font-weight":"bold","font-size":"2em","color":"darkcyan"});
 $("img").css({"width":"100%","height":"auto"});
 
-$(".statusContainer").css({"width":"100%", "position":"relative", "bottom":"0"}); //
+$(".statusContainer").css({"width":"100%", 	"align-self": "flex-end"}); //
 $(".price").css({"text-align":"center","font-size":"4em", "font-weight":"900","text-align":"center","margin":"0"});
 $(".status").css({"font-size":"1.5em","font-weight":"700", "text-align":"center"});	
